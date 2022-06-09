@@ -37,7 +37,7 @@ Continue to follow the errors that your test provides until the test passes. The
 * `centaur_spec.rb` x
 * `ogre_spec.rb` x
 * `lovisa_spec.rb` x
-* `direwolf_spec.rb`
+* `direwolf_spec.rb` x
 
 ## Extra Challenges
 
