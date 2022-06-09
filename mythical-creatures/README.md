@@ -35,9 +35,9 @@ Continue to follow the errors that your test provides until the test passes. The
 * `medusa_spec.rb` x
 * `werewolf_spec.rb` x
 * `centaur_spec.rb` x
-* `ogre_spec.rb` 
+* `ogre_spec.rb` x
+* `lovisa_spec.rb` x
 * `direwolf_spec.rb`
-* `the_journey_spec.rb` (see below)
 
 ## Extra Challenges
 

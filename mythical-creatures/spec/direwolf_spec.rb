@@ -1,4 +1,4 @@
-require './spec/spec-helper'
+require 'rspec'
 require './lib/direwolf'
 
 RSpec.describe Direwolf do
@@ -8,6 +8,7 @@ RSpec.describe Direwolf do
     expect(wolf.name).to eq('Nymeria')
   end
 
+=begin
   it 'can have a different name and can have a home' do
     wolf = Direwolf.new('Lady')
 
@@ -30,6 +31,7 @@ RSpec.describe Direwolf do
     expect(wolf.size).to eq('Smol Pupper')
   end
 
+
   it 'the Starks are in Winterfell by default' do
     wolf = Direwolf.new('Summer', 'Winterfell')
     stark = Stark.new('Bran')
@@ -37,7 +39,7 @@ RSpec.describe Direwolf do
     expect(wolf.home).to eq('Winterfell')
     expect(stark.location).to eq('Winterfell')
   end
-
+=end
   it 'starts off with no Starks to protect' do
     wolf = Direwolf.new('Nymeria')
     stark = Stark.new('Arya')
